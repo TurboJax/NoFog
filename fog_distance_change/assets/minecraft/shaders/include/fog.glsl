@@ -8,6 +8,6 @@ float linear_fog_fade(float vertexDistance, float fogStart, float fogEnd) {
     return 0.0;
 }
 
-float fog_distance(mat4 modelViewMat, vec3 pos, int shape) {
+float fog_distance(vec3 pos, int shape) {
     return 0.0;
 }
