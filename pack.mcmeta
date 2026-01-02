@@ -1,0 +1,28 @@
+{
+  "pack": {
+    "pack_format": 34,
+    "description": "Removes fog!",
+    "min_format": 34,
+    "max_format": 75,
+    "supported_formats": {
+      "min_inclusive": 34,
+      "max_inclusive": 75
+    }
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "overlay_63-64",
+        "formats": { "min_inclusive": 63, "max_inclusive": 64 },
+        "min_format": 63,
+        "max_format": 64
+      },
+      {
+        "directory": "overlay_69-75",
+        "formats": { "min_inclusive": 69, "max_inclusive": 75 },
+        "min_format": 69,
+        "max_format": 75
+      }
+    ]
+  }
+}
