@@ -3,4 +3,4 @@
 zipname="$(basename "$(pwd)").zip"
 
 rm "$zipname"
-zip "$zipname" -r assets/ pack.mcmeta pack.png LICENSE
+zip "$zipname" -r assets/ overlays/ pack.mcmeta pack.png LICENSE
