@@ -3,10 +3,10 @@
     "pack_format": 15,
     "description": "Removes fog!",
     "min_format": 15,
-    "max_format": 75,
+    "max_format": 84,
     "supported_formats": {
       "min_inclusive": 15,
-      "max_inclusive": 75
+      "max_inclusive": 84
     }
   },
   "overlays": {
@@ -33,10 +33,10 @@
         "directory": "opengl_3.3",
         "formats": {
           "min_inclusive": 69,
-          "max_inclusive": 75
+          "max_inclusive": 84
         },
         "min_format": 69,
-        "max_format": 75
+        "max_format": 84
       }
     ]
   }
