@@ -12,7 +12,7 @@
   "overlays": {
     "entries": [
       {
-        "directory": "fog_distance_change",
+        "directory": "overlays/fog_distance_change",
         "formats": {
           "min_inclusive": 32,
           "max_inclusive": 55
@@ -21,7 +21,7 @@
         "max_format": 55
       },
       {
-        "directory": "big_update",
+        "directory": "overlays/big_update",
         "formats": {
           "min_inclusive": 63,
           "max_inclusive": 64
@@ -30,7 +30,7 @@
         "max_format": 64
       },
       {
-        "directory": "opengl_3.3",
+        "directory": "overlays/opengl_3.3",
         "formats": {
           "min_inclusive": 69,
           "max_inclusive": 84
