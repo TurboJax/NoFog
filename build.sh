@@ -2,6 +2,15 @@
 
 zipname="$(basename "$(pwd)").zip"
 
+# Removing the old zip
 rm "$zipname"
 
-zip "$zipname" -r assets/ big_update/ fog_distance_change/ opengl_3.3/ pack.mcmeta pack.png LICENSE
+# Adding the base assets and metadata
+zip "$zipname" -r assets/ pack.mcmeta pack.png LICENSE
+
+# Adding overlays
+cd "overlays"
+
+for f in ./*; do
+  zip "../$zipname" -r "$f"
+done
