@@ -3,10 +3,10 @@
     "pack_format": 15,
     "description": "Removes fog!",
     "min_format": 15,
-    "max_format": 97.1,
+    "max_format": 97,
     "supported_formats": {
       "min_inclusive": 15,
-      "max_inclusive": 97.1
+      "max_inclusive": 97
     }
   },
   "overlays": {
@@ -41,11 +41,11 @@
       {
         "directory": "26_3",
         "formats": {
-          "min_inclusive": 97.1,
-          "max_inclusive": 97.1
+          "min_inclusive": 97,
+          "max_inclusive": 97
         },
-        "min_format": 97.1
-        "max_format": 97.1
+        "min_format": 97,
+        "max_format": 97
       }
     ]
   }
